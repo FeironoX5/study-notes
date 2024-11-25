@@ -1,1 +1,1 @@
-Domain Name System
+Domain Name System - система сопоставляющая [[Домен|домены]] с [[IP]]-адресами и [[порт]]
