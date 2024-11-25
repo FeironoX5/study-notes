@@ -1,1 +1,2 @@
-Java Enterprise Edition (ранее Java2 Enterprise Edition/J2EE, позже Jakarta EE) - набор спецификаций и документации для [[Java]], для средних и крупных предприятий
+Java Enterprise Edition (ранее Java2 Enterprise Edition/J2EE, позже Jakarta EE) - набор спецификаций и документации для [[Java]], для средних и крупных предприятий.
+- включает стандарты для [[Сервлет|сервлетов]], [[JSP]], [[JPA]] и много другого.
