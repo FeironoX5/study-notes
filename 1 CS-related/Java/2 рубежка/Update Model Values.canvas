@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"488ad74f46ee5af2","type":"text","text":"[[FacesContext]] не содержит ошибок?","x":-240,"y":-120,"width":250,"height":80,"color":"3"},
-		{"id":"295e139109d5b691","type":"text","text":"Данные из [[FacesContext]] переносятся в модель тем самым данные на сервере обновляются","x":140,"y":-270,"width":250,"height":170}
+		{"id":"295e139109d5b691","type":"text","text":"Данные из [[FacesContext]] переносятся в модель","x":140,"y":-270,"width":250,"height":130}
 	],
 	"edges":[
 		{"id":"8e44fc6561a29324","fromNode":"488ad74f46ee5af2","fromSide":"right","toNode":"295e139109d5b691","toSide":"left","label":"да"}

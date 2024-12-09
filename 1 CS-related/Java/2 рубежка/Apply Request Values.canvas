@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"bd49efb87c5284a1","type":"text","text":"Создать сообщение об ошибке и поместить в [[FacesContext]]","x":140,"y":-40,"width":250,"height":140},
-		{"id":"488ad74f46ee5af2","type":"text","text":"Вызов конвертера успешен?","x":-240,"y":-100,"width":250,"height":60,"color":"3"},
+		{"id":"488ad74f46ee5af2","type":"text","text":"Вызов [[JSF Converters]] успешен?","x":-240,"y":-100,"width":250,"height":60,"color":"3"},
 		{"id":"d2dea68e518823b5","type":"text","text":"Данные с клиента в текстовом виде","x":-540,"y":-100,"width":250,"height":60,"color":"5"},
 		{"id":"295e139109d5b691","type":"text","text":"Сохранить значение в локальной переменной компонента из [[FacesContext]]","x":140,"y":-240,"width":250,"height":170}
 	],

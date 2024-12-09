@@ -1,11 +1,11 @@
 {
 	"nodes":[
-		{"id":"295e139109d5b691","x":140,"y":-180,"width":250,"height":80,"type":"text","text":"Сформировать пустое представление"},
+		{"id":"295e139109d5b691","type":"text","text":"Сформировать пустое представление","x":140,"y":-180,"width":250,"height":80},
 		{"id":"bd49efb87c5284a1","type":"text","text":"Синхронизировать состояние компонент представления с клиентом","x":140,"y":-40,"width":250,"height":140},
-		{"id":"488ad74f46ee5af2","x":-240,"y":-100,"width":250,"height":60,"color":"3","type":"text","text":"Страница существует?"},
+		{"id":"488ad74f46ee5af2","type":"text","text":"Страница существует?","x":-240,"y":-100,"width":250,"height":60,"color":"3"},
 		{"id":"d2dea68e518823b5","type":"text","text":"Запрос к странице JSF","x":-540,"y":-100,"width":250,"height":60,"color":"5"},
-		{"id":"4d9ad46d3db81495","x":480,"y":-245,"width":250,"height":211,"type":"text","text":"Начиная с `UIViewRoot` создать объекты компонентов"},
-		{"id":"2d2266e81d8f6ee1","type":"text","text":"Назначить:\n- Listeners\n- Converters\n- Validators","x":800,"y":-245,"width":250,"height":211},
+		{"id":"4d9ad46d3db81495","type":"text","text":"Начиная с `UIViewRoot` создать объекты компонентов","x":480,"y":-245,"width":250,"height":211},
+		{"id":"2d2266e81d8f6ee1","type":"text","text":"Назначить:\n- [[JSF Listeners]]\n- [[JSF Converters]]\n- [[JSF Validators]]","x":800,"y":-245,"width":250,"height":211},
 		{"id":"8650127d93ace9eb","type":"text","text":"Передать эти элементы представления в [[FacesContext]]","x":1120,"y":-245,"width":250,"height":211}
 	],
 	"edges":[

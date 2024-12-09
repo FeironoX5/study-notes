@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"bd49efb87c5284a1","type":"text","text":"Создать сообщение об ошибке и поместить в [[FacesContext]]","x":140,"y":-40,"width":250,"height":140},
-		{"id":"488ad74f46ee5af2","type":"text","text":"Вызов валидатора для каждого компонента успешен?","x":-220,"y":-155,"width":250,"height":115,"color":"3"}
+		{"id":"488ad74f46ee5af2","type":"text","text":"Вызов [[JSF Validators]] для каждого компонента успешен?","x":-220,"y":-155,"width":250,"height":115,"color":"3"}
 	],
 	"edges":[
 		{"id":"241534a75318649c","fromNode":"488ad74f46ee5af2","fromSide":"right","toNode":"bd49efb87c5284a1","toSide":"left","label":"нет"}
