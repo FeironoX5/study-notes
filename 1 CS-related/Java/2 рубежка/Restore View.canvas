@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"295e139109d5b691","x":140,"y":-180,"width":250,"height":80,"type":"text","text":"Сформировать пустое представление"},
+		{"id":"bd49efb87c5284a1","type":"text","text":"Синхронизировать состояние компонент представления с клиентом","x":140,"y":-40,"width":250,"height":140},
+		{"id":"488ad74f46ee5af2","x":-240,"y":-100,"width":250,"height":60,"color":"3","type":"text","text":"Страница существует?"},
+		{"id":"d2dea68e518823b5","type":"text","text":"Запрос к странице JSF","x":-540,"y":-100,"width":250,"height":60,"color":"5"}
+	],
+	"edges":[
+		{"id":"8e44fc6561a29324","fromNode":"488ad74f46ee5af2","fromSide":"right","toNode":"295e139109d5b691","toSide":"left","label":"да"},
+		{"id":"241534a75318649c","fromNode":"488ad74f46ee5af2","fromSide":"right","toNode":"bd49efb87c5284a1","toSide":"left","label":"нет"},
+		{"id":"d6791096d416a75d","fromNode":"d2dea68e518823b5","fromSide":"right","toNode":"488ad74f46ee5af2","toSide":"left"}
+	]
+}
