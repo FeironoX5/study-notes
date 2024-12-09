@@ -3,11 +3,17 @@
 		{"id":"295e139109d5b691","x":140,"y":-180,"width":250,"height":80,"type":"text","text":"Сформировать пустое представление"},
 		{"id":"bd49efb87c5284a1","type":"text","text":"Синхронизировать состояние компонент представления с клиентом","x":140,"y":-40,"width":250,"height":140},
 		{"id":"488ad74f46ee5af2","x":-240,"y":-100,"width":250,"height":60,"color":"3","type":"text","text":"Страница существует?"},
-		{"id":"d2dea68e518823b5","type":"text","text":"Запрос к странице JSF","x":-540,"y":-100,"width":250,"height":60,"color":"5"}
+		{"id":"d2dea68e518823b5","type":"text","text":"Запрос к странице JSF","x":-540,"y":-100,"width":250,"height":60,"color":"5"},
+		{"id":"4d9ad46d3db81495","x":480,"y":-210,"width":250,"height":141,"type":"text","text":"Начиная с `UIViewRoot` создать объекты компонентов"},
+		{"id":"2d2266e81d8f6ee1","type":"text","text":"Назначить:\n- Listeners\n- Converters\n- Validators","x":800,"y":-245,"width":250,"height":211},
+		{"id":"8650127d93ace9eb","type":"text","text":"Назначить:\n- Listeners\n- Converters\n- Validators","x":1120,"y":-245,"width":250,"height":211}
 	],
 	"edges":[
 		{"id":"8e44fc6561a29324","fromNode":"488ad74f46ee5af2","fromSide":"right","toNode":"295e139109d5b691","toSide":"left","label":"да"},
 		{"id":"241534a75318649c","fromNode":"488ad74f46ee5af2","fromSide":"right","toNode":"bd49efb87c5284a1","toSide":"left","label":"нет"},
-		{"id":"d6791096d416a75d","fromNode":"d2dea68e518823b5","fromSide":"right","toNode":"488ad74f46ee5af2","toSide":"left"}
+		{"id":"d6791096d416a75d","fromNode":"d2dea68e518823b5","fromSide":"right","toNode":"488ad74f46ee5af2","toSide":"left"},
+		{"id":"459ad5df8bb4c40b","fromNode":"295e139109d5b691","fromSide":"right","toNode":"4d9ad46d3db81495","toSide":"left"},
+		{"id":"f06470c0c1984862","fromNode":"4d9ad46d3db81495","fromSide":"right","toNode":"2d2266e81d8f6ee1","toSide":"left"},
+		{"id":"073747cef4cfe3bc","fromNode":"2d2266e81d8f6ee1","fromSide":"right","toNode":"8650127d93ace9eb","toSide":"left"}
 	]
 }
