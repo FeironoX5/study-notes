@@ -1,9 +1,36 @@
 {
-	"nodes":[
-		{"id":"488ad74f46ee5af2","type":"text","text":"Есть ли новые события от [[JSF Listeners]]?","x":-240,"y":-155,"width":250,"height":115,"color":"3"},
-		{"id":"295e139109d5b691","type":"text","text":"Данные из [[FacesContext]] переносятся в модель","x":140,"y":-215,"width":250,"height":118}
-	],
-	"edges":[
-		{"id":"8e44fc6561a29324","fromNode":"488ad74f46ee5af2","fromSide":"right","toNode":"295e139109d5b691","toSide":"left","label":"да"}
-	]
+  "nodes": [
+    {
+      "id": "488ad74f46ee5af2",
+      "type": "text",
+      "text": "Есть ли новые события от [[JSF Listeners]]?",
+      "styleAttributes": {},
+      "x": -240,
+      "y": -155,
+      "width": 250,
+      "height": 115,
+      "color": "3"
+    },
+    {
+      "id": "295e139109d5b691",
+      "type": "text",
+      "text": "Данные из [[FacesContext]] переносятся в модель",
+      "styleAttributes": {},
+      "x": 140,
+      "y": -215,
+      "width": 250,
+      "height": 118
+    }
+  ],
+  "edges": [
+    {
+      "id": "8e44fc6561a29324",
+      "fromNode": "488ad74f46ee5af2",
+      "fromSide": "right",
+      "toNode": "295e139109d5b691",
+      "toSide": "left",
+      "label": "да"
+    }
+  ],
+  "metadata": {}
 }

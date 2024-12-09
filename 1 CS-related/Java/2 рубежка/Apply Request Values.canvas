@@ -1,13 +1,72 @@
 {
-	"nodes":[
-		{"id":"bd49efb87c5284a1","type":"text","text":"Создать сообщение об ошибке и поместить в [[FacesContext]]","x":140,"y":-40,"width":250,"height":140},
-		{"id":"488ad74f46ee5af2","type":"text","text":"Вызов [[JSF Converters]] успешен?","x":-240,"y":-100,"width":250,"height":60,"color":"3"},
-		{"id":"d2dea68e518823b5","type":"text","text":"Данные с клиента в текстовом виде","x":-540,"y":-100,"width":250,"height":60,"color":"5"},
-		{"id":"295e139109d5b691","type":"text","text":"Сохранить значение в локальной переменной компонента из [[FacesContext]]","x":140,"y":-240,"width":250,"height":170}
-	],
-	"edges":[
-		{"id":"8e44fc6561a29324","fromNode":"488ad74f46ee5af2","fromSide":"right","toNode":"295e139109d5b691","toSide":"left","label":"да"},
-		{"id":"241534a75318649c","fromNode":"488ad74f46ee5af2","fromSide":"right","toNode":"bd49efb87c5284a1","toSide":"left","label":"нет"},
-		{"id":"d6791096d416a75d","fromNode":"d2dea68e518823b5","fromSide":"right","toNode":"488ad74f46ee5af2","toSide":"left"}
-	]
+  "nodes": [
+    {
+      "id": "bd49efb87c5284a1",
+      "type": "text",
+      "text": "Создать сообщение об ошибке и поместить в [[FacesContext]]",
+      "styleAttributes": {},
+      "x": 140,
+      "y": -40,
+      "width": 250,
+      "height": 140
+    },
+    {
+      "id": "488ad74f46ee5af2",
+      "type": "text",
+      "text": "Вызов [[JSF Converters]] успешен?",
+      "styleAttributes": {},
+      "x": -240,
+      "y": -100,
+      "width": 250,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "d2dea68e518823b5",
+      "type": "text",
+      "text": "Данные с клиента в текстовом виде",
+      "styleAttributes": {},
+      "x": -540,
+      "y": -100,
+      "width": 250,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "295e139109d5b691",
+      "type": "text",
+      "text": "Сохранить значение в локальной переменной компонента из [[FacesContext]]",
+      "styleAttributes": {},
+      "x": 140,
+      "y": -240,
+      "width": 250,
+      "height": 170
+    }
+  ],
+  "edges": [
+    {
+      "id": "8e44fc6561a29324",
+      "fromNode": "488ad74f46ee5af2",
+      "fromSide": "right",
+      "toNode": "295e139109d5b691",
+      "toSide": "left",
+      "label": "да"
+    },
+    {
+      "id": "241534a75318649c",
+      "fromNode": "488ad74f46ee5af2",
+      "fromSide": "right",
+      "toNode": "bd49efb87c5284a1",
+      "toSide": "left",
+      "label": "нет"
+    },
+    {
+      "id": "d6791096d416a75d",
+      "fromNode": "d2dea68e518823b5",
+      "fromSide": "right",
+      "toNode": "488ad74f46ee5af2",
+      "toSide": "left"
+    }
+  ],
+  "metadata": {}
 }
