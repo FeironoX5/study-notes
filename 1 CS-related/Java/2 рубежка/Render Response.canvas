@@ -1,34 +1,40 @@
 {
   "nodes": [
     {
-      "id": "295e139109d5b691",
+      "id": "60215bcf8e01e4d0",
       "type": "text",
-      "text": "Обновление представления по результатам обработки запроса",
-      "styleAttributes": {},
-      "x": 140,
+      "text": "На стороне клиента происходит обновление страницы",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 900,
       "y": -240,
-      "width": 250,
-      "height": 160
+      "width": 260,
+      "height": 180
     },
     {
       "id": "947fd52209b623fa",
       "type": "text",
-      "text": "Формирование ответа на запрос",
-      "styleAttributes": {},
+      "text": "Формирование html-страницы с ответом на запрос (ошибки из [[FacesContext]] помещаются в тег `<messages>`) и её отправка",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
       "x": 500,
-      "y": -200,
-      "width": 260,
-      "height": 80
+      "y": -240,
+      "width": 340,
+      "height": 180
     },
     {
-      "id": "60215bcf8e01e4d0",
+      "id": "295e139109d5b691",
       "type": "text",
-      "text": "На стороне клиента происходит обновление страницы",
-      "styleAttributes": {},
-      "x": 880,
-      "y": -210,
-      "width": 260,
-      "height": 100
+      "text": "Создаётся/Обновляется представления по результатам обработки запроса",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 200,
+      "y": -240,
+      "width": 250,
+      "height": 180
     }
   ],
   "edges": [
