@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "295e139109d5b691",
+      "type": "text",
+      "text": "Обновление представления по результатам обработки запроса",
+      "styleAttributes": {},
+      "x": 140,
+      "y": -240,
+      "width": 250,
+      "height": 160
+    },
+    {
+      "id": "947fd52209b623fa",
+      "type": "text",
+      "text": "Формирование ответа на запрос",
+      "styleAttributes": {},
+      "x": 500,
+      "y": -200,
+      "width": 260,
+      "height": 80
+    },
+    {
+      "id": "60215bcf8e01e4d0",
+      "type": "text",
+      "text": "На стороне клиента происходит обновление страницы",
+      "styleAttributes": {},
+      "x": 880,
+      "y": -210,
+      "width": 260,
+      "height": 100
+    }
+  ],
+  "edges": [
+    {
+      "id": "51c03fd2196cce17",
+      "styleAttributes": {},
+      "fromNode": "295e139109d5b691",
+      "fromSide": "right",
+      "toNode": "947fd52209b623fa",
+      "toSide": "left"
+    },
+    {
+      "id": "b777300900b3bcf3",
+      "styleAttributes": {},
+      "fromNode": "947fd52209b623fa",
+      "fromSide": "right",
+      "toNode": "60215bcf8e01e4d0",
+      "toSide": "left"
+    }
+  ],
+  "metadata": {}
+}
